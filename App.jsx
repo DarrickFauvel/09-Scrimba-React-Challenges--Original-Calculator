@@ -112,8 +112,6 @@ export default function App() {
 						currentNum: [numFromClick]
 					}))
           
-          
-          
 /*-------------Write your code for task 2 above.------------------------------------------------*/
 
           } else if (conditionSix) {
