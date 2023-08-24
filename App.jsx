@@ -133,10 +133,12 @@ export default function App() {
                        
 ---------------Write your code for task 3 below.------------------------------------------------*/
               
-              
-              
-
-
+              setCurrentCalc(prevState => ({
+								...prevState,
+								previousNum: [...prevState.result],
+								result: [],
+								currentNum: [numFromClick]
+							}))
 
 /*-------------Write your code for task 3 above.------------------------------------------------*/
 
