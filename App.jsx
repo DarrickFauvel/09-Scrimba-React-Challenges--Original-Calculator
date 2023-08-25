@@ -135,9 +135,9 @@ export default function App() {
               
               setCurrentCalc(prevState => ({
 								...prevState,
-								previousNum: [...prevState.result],
+								previousNum: [prevState.result],
 								result: [],
-								currentNum: [numFromClick]
+								currentNum: [numFromClick],
 							}))
 
 /*-------------Write your code for task 3 above.------------------------------------------------*/
